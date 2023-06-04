@@ -1,3 +1,4 @@
+import CTAFooterSection from './sections/CTA-FooterSection/index.tsx'
 import FeatureSection from './sections/FeatureSection/index.tsx'
 import FormSection from './sections/FormSection/index.tsx'
 import HeroSection from './sections/HeroSection/index.tsx'
@@ -12,6 +13,7 @@ function App() {
       <FormSection />
       <StatsSection />
       <FeatureSection />
+      <CTAFooterSection />
     </>
   )
 }
